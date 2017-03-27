@@ -1,0 +1,29 @@
+site_name: Indruino
+# site_url: https://esp8266.vn // TODO:
+site_description: Indruino description
+site_author: Indruino team
+theme: readthedocs # xai theme default of readthedocs ==> may cai toc show ra het o left navigation bar
+# theme_dir: readthedocshm # Cai nay custom lai, disable toc show on nav bar
+copyright: Copyright &copy; 2017 Indruino
+markdown_extensions:
+    - toc:
+        permalink: '#'
+    - codehilite(css_class=code)
+    - admonition
+    - smarty
+repo_name: GitHub
+repo_url: https://github.com/Indruino-official/Indruino-official.github.io
+
+# page tree
+pages:
+  - Home: index.md
+  - Indruino products:
+    - Indruino CPU: 
+      - Indruino Mega CPU: Product/CPU/CPU_Mega.md
+      - Indruino Uno CPU: Product/CPU/CPU_Uno.md
+    - Indruino Expansion: 
+      - Indruino Expansion 32 Inputs: Product/Expansion/Expansion_32Inputs.md
+      - Indruino Expansion 32 Outputs: Product/Expansion/Expansion_32Outputs.md
+      - Indruino Expansion 16 Inputs / 16 Outputs: Product/Expansion/Expansion_16Inputs_16Outputs.md
+  - Tutorials:
+    - Getting started: Tutorial/Indruino_GettingStarted.md
